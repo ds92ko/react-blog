@@ -2,6 +2,35 @@
   text-align: center;
 }
 
+div {
+  box-sizing: border-box;
+}
+
+.nav-bk {
+  display: flex;
+  background: black;
+  width: 100%;
+  color: white;
+  padding: 0 20px;
+}
+
+.list {
+  padding: 0 20px;
+  text-align: left;
+  border-bottom: 1px solid gray;
+}
+
+.btn-ico {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  transition: transform .1s;
+}
+
+.btn-ico:hover {
+  transform: scale(1.3);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
